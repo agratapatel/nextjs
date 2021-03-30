@@ -120,7 +120,7 @@
 }
 
 .gandalf {
-  height: 2.5em;
+  height: 2.5rem;
   border-radius: 0%;
   align-self: center;
 }
@@ -172,7 +172,7 @@
 }
 
 .gradient {
-background: linear-gradient(110.78deg,#76E650 -1.13%,#F9D649 15.22%,#F08E35 32.09%,#EC5157 48.96%,#FF18BD 67.94%,#1A4BFF 85.34%,#62D8F9 99.57%);
+background: linear-gradient(110.78deg,#EC5157 -1.13%,#FF18BD 15.22%,#1A4BFF 42.09%,#62D8F9 88.96%);
 -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
