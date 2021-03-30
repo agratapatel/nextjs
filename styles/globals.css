@@ -7,9 +7,22 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #5a6278;
   text-decoration: none;
 }
+
+a:hover, a:focus, a:active {
+  color: #2667FF;
+  border-color: #2667FF;
+  
+}
+
+p {
+  color: #5a6278;
+  line-height: 160%;
+}
+
+
 
 * {
   box-sizing: border-box;
