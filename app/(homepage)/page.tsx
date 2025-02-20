@@ -31,14 +31,14 @@ const AboutAgrata = () => {
         - easier way to find your next rental apartments in India.
       </p>
       <p>
-        Previously I was{" "}
+        Previously I was Product designer at {" "}
         <Link
           href="https://atlassian.com"
           target="_blank"
           rel="noopener noreferrer"
           className="underline"
         >
-          Product designer at Atlassian.
+           Atlassian.
         </Link>{" "}
         I&apos;ve also worked with Samsung, Reliance Jio, Able, and more. Design
         graduate from {" "}
