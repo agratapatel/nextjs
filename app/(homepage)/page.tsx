@@ -8,7 +8,7 @@ import { RainbowButton } from "@/components/magicui/rainbow-button";
 const AboutAgrata = () => {
   return (
     <div className="flex flex-col gap-4 items-start max-w-lg text-lg">
-      <ShineBorder className="p-0">
+      <ShineBorder className="p-1 rounded-xl">
         <Image
           src="/profile.JPG"
           alt="Agrata"
@@ -55,9 +55,9 @@ const AboutAgrata = () => {
 export default function Home() {
   return (
     <SmoothReveal>
-      <div className="flex flex-col gap-4 items-center py-16">
+      <div className="flex flex-col gap-4 items-center py-32">
         
-        <div className="flex flex-col gap-8 items-start max-w-lg">
+        <div className="flex flex-col gap-8 items-start max-w-lg px-6">
         <AboutAgrata />
           <RainbowButton>
             <Link href="mailto:agratapatel@gmail.com">Contact</Link>
