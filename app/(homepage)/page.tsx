@@ -4,7 +4,7 @@ import Link from "next/link";
 import SmoothReveal from "./_components/SmoothReveal";
 import { ShineBorder } from "@/components/magicui/shine-border";
 import { RainbowButton } from "@/components/magicui/rainbow-button";
-import { SparklesText } from "@/components/ui/sparkles-text";
+
 const AboutAgrata = () => {
   return (
     <div className="flex flex-col gap-4 items-start max-w-lg text-lg">
@@ -17,7 +17,7 @@ const AboutAgrata = () => {
           className="rounded-xl"
         />
       </ShineBorder>
-      <p>Hey I'm Agrata</p>
+      <p>Hey I&apos;m Agrata</p>
       <p>
         Founder of{" "}
         <Link
@@ -38,7 +38,7 @@ const AboutAgrata = () => {
         >
           Product designer at Atlassian.
         </Link>{" "}
-        I've also worked with Samsung, Reliance Jio, Able, and more. Design
+        I&apos;ve also worked with Samsung, Reliance Jio, Able, and more. Design
         graduate from {" "}
         <Link
           href="https://iitg.ac.in"
@@ -55,7 +55,7 @@ const AboutAgrata = () => {
 export default function Home() {
   return (
     <SmoothReveal>
-      <div className="flex flex-col gap-4 items-center py-12">
+      <div className="flex flex-col gap-4 items-center py-16">
         
         <div className="flex flex-col gap-8 items-start max-w-lg">
         <AboutAgrata />
