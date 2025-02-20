@@ -48,8 +48,9 @@ const AboutAgrata = () => {
           rel="noopener noreferrer"
           className="underline"
         >
-          IIT Guwahati 2020.
-        </Link>
+          IIT Guwahati
+        </Link> {" "}
+        2020.
       </p>
       </div>  
   );
