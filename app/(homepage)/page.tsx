@@ -8,7 +8,7 @@ import { RainbowButton } from "@/components/magicui/rainbow-button";
 const AboutAgrata = () => {
   return (
     <div className="flex flex-col gap-4 items-start max-w-lg text-lg">
-      <ShineBorder className="p-1 rounded-xl">
+      <ShineBorder className="p-0">
         <Image
           src="/profile.JPG"
           alt="Agrata"
