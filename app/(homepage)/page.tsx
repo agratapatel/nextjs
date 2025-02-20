@@ -24,6 +24,7 @@ const AboutAgrata = () => {
           href="https://ghareasy.com"
           target="_blank"
           rel="noopener noreferrer"
+          className="underline"
         >
           Ghareasy.com
         </Link>{" "}
@@ -35,6 +36,7 @@ const AboutAgrata = () => {
           href="https://atlassian.com"
           target="_blank"
           rel="noopener noreferrer"
+          className="underline"
         >
           Product designer at Atlassian.
         </Link>{" "}
@@ -44,6 +46,7 @@ const AboutAgrata = () => {
           href="https://iitg.ac.in"
           target="_blank"
           rel="noopener noreferrer"
+          className="underline"
         >
           IIT Guwahati 2020.
         </Link>
